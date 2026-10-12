@@ -224,8 +224,9 @@ p {
     z-index: 2;
     /* Garante que a bola fique por cima do título do plano */
 }
-.price span{
-    
+
+.price span {
+
     font-weight: bold;
     font-size: 11px;
 }
@@ -287,7 +288,8 @@ p {
     font-weight: 600;
 }
 
-input, textarea {
+input,
+textarea {
     border: none;
     outline: none;
 }
@@ -347,7 +349,7 @@ input, textarea {
     margin: 0 auto 20px;
     width: 470px;
     height: 150px;
-    
+
 }
 
 .contact-container input[type="submit"] {
@@ -411,6 +413,7 @@ input, textarea {
     right: 15px;
     transition: transform 0.3s ease;
 }
+
 .accordion-item label::before:hover {
     content: "▶";
     color: #ffffff;
@@ -440,24 +443,24 @@ input[type="radio"]:checked+label::before {
 }
 
 .footer-container {
-    background: #1ad367;
-    background-image: linear-gradient(to right, #2cc762, #094d25);
-    border-bottom: 8px solid #094d25;
-    
+    background: #215c38;
+    background: linear-gradient(138deg,rgba(33, 92, 56, 1) 0%, rgba(10, 204, 88, 1) 61%, rgba(11, 201, 87, 1) 63%, rgba(36, 133, 76, 1) 63%, rgba(50, 138, 88, 1) 71%, rgba(42, 107, 67, 1) 71%, rgba(24, 74, 48, 1) 74%, rgba(15, 61, 37, 1) 76%);
+    border-bottom: 7px solid #094d25;
     padding: 5px;
     margin: 35px 0 0 0;
 
 }
-.footer-container p{
+
+.footer-container p {
     color: #fff;
     text-align: center;
-    margin: 50px 0 ;
+    margin: 50px 0;
 }
 
-.footer-container span{
+.footer-container span {
     font-weight: bold;
     border-bottom: 2px solid #ffffff;
-    
+
 
 }
 
@@ -480,7 +483,13 @@ input[type="radio"]:checked+label::before {
     }
 
     .searchdomain-container {
-        padding: 2rem 4rem;
+        padding: 2rem;
+
+    }
+
+    .searchdomain-container input {
+        text-align: center;
+        color: #333;
     }
 
     .services-container ul {
@@ -498,7 +507,7 @@ input[type="radio"]:checked+label::before {
     margin-top: 12px;
 }
 
-.menu-toggle .icon-hamburguer{
+.menu-toggle .icon-hamburguer {
     color: #fff;
     font-size: 45px;
 }
@@ -507,7 +516,7 @@ input[type="radio"]:checked+label::before {
 @media (max-width: 576px) {
     .menu-toggle {
         display: block;
-        
+
         /* Mostra o botão no celular */
     }
 
@@ -525,12 +534,12 @@ input[type="radio"]:checked+label::before {
         padding: 1rem 0 2rem 0;
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         margin: 0;
-        
+
     }
 
     .navbar-items.active {
         display: flex;
-        
+
         /* Exibe o menu quando a classe active é adicionada via JS */
     }
 
