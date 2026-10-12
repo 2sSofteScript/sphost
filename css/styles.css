@@ -655,6 +655,7 @@ input[type="radio"]:checked+label::before {
         box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         margin: 0;
         z-index: 10;
+        cursor: pointer;
     }
 
     .navbar-items.active {
@@ -672,6 +673,15 @@ input[type="radio"]:checked+label::before {
     .navbar-items .default-btn {
         display: inline-block;
         margin-top: 10px;
+
+    }
+
+    .navbar-items .default-btn:hover {
+        color: #00fa68;
+        background-color: #178844;
+        font-weight: bold;
+        transition: all 0.4s ease;
+
     }
 
     .contact-container h2 {
