@@ -325,6 +325,7 @@ font-weight: bold;
     border-radius: 20px;
     overflow: hidden;
     border-bottom: 2px solid #178844;
+    box-shadow: 0px 5px 5px #858585b7;
 }
 
 .barras>span {
@@ -332,7 +333,6 @@ font-weight: bold;
     background: #057837;
     background: linear-gradient(152deg, rgba(5, 120, 55, 1) 0%, rgba(10, 105, 47, 1) 19%, rgba(0, 115, 54, 1) 25%, rgba(3, 145, 60, 1) 36%, rgba(15, 186, 83, 1) 58%, rgba(20, 245, 110, 1) 100%, rgba(1, 95, 39, 1) 99%);
     position: absolute;
-
     border-radius: 20px;
 }
 
@@ -617,6 +617,10 @@ input[type="radio"]:checked+label::before {
 
     .services-container ul {
         flex-direction: column;
+    }
+
+    .skills-container h1{
+        font-size: 25px;
     }
 }
 
