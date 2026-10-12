@@ -291,6 +291,95 @@ p {
     background-color: #f45c57;
 }
 
+/*skills contaiiner*/
+.skills-container {
+    padding: 30px;
+    background-color: #d1d1d1;
+    box-shadow: 0 15px 20px #0000001f;
+
+
+}
+.skills-container h1 {
+text-align: center;
+font-weight: bold;
+
+}
+
+
+.skills-container ul {
+    list-style: none;
+
+}
+
+.skills-container ul li {
+    margin: 20px 0;
+
+}
+
+
+.skills-container .barras {
+    background-color: #fff;
+    display: block;
+    height: 25px;
+    position: relative;
+    border-radius: 20px;
+    overflow: hidden;
+    border-bottom: 2px solid #178844;
+}
+
+.barras>span {
+    height: 25px;
+    background: #057837;
+    background: linear-gradient(152deg, rgba(5, 120, 55, 1) 0%, rgba(10, 105, 47, 1) 19%, rgba(0, 115, 54, 1) 25%, rgba(3, 145, 60, 1) 36%, rgba(15, 186, 83, 1) 58%, rgba(20, 245, 110, 1) 100%, rgba(1, 95, 39, 1) 99%);
+    position: absolute;
+
+    border-radius: 20px;
+}
+
+.clientes {
+    width: 80%;
+    animation: clientes 2s;
+}
+
+.sites {
+    width: 50%;
+    animation: sites 3s;
+}
+
+.negocios {
+    width: 55%;
+    animation: negocios 3s;
+}
+
+@keyframes clientes {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 80%;
+    }
+}
+@keyframes sites {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width:50%;
+    }
+}
+@keyframes negocios {
+    0%{
+        width: 0%;
+    }
+
+    100%{
+        width: 55%;
+    }
+}
+
+
 /*Search domain*/
 .searchdomain-container {
     margin-top: 0;
@@ -319,7 +408,7 @@ p {
     margin: 0 auto;
     color: #178844;
     font-weight: 600;
-    
+
 }
 
 input,
@@ -523,7 +612,7 @@ input[type="radio"]:checked+label::before {
     .searchdomain-container input {
         text-align: center;
         color: #178844;
-        
+
     }
 
     .services-container ul {
