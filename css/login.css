@@ -7,14 +7,16 @@
 
 :root {
     --text-login: #2cc76a;
-    --cor-input: #e4e4e4 78%;
+    --cor-input: #cccccc 78%;
+    --text-input: #0a692f 19%;
     --cor-button: #2cc762;
     --cor-texto: #fff;
+    
 }
 
 body {
     background-image: linear-gradient(152deg, rgba(5, 120, 55, 1) 0%, rgba(10, 105, 47, 1) 19%, rgba(0, 115, 54, 1) 25%, rgba(3, 145, 60, 1) 36%, rgba(15, 186, 83, 1) 55%, rgba(20, 245, 110, 1) 81%, rgba(1, 95, 39, 1) 100%);
-    
+
 }
 
 .interface {
@@ -38,7 +40,7 @@ body {
 
 .tela-login h1 span {
     color: var(--text-login);
-    
+
 }
 
 .tela-login form {
@@ -56,6 +58,7 @@ body {
     border-radius: 8px;
     font-size: 1rem;
     font-weight: 600;
+    color: #0a692f;
 
 
 
@@ -134,11 +137,55 @@ body {
     color: var(--cor-texto);
 }
 
+.img-decoracao {
+    width: 50%;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+
+
+}
+
+.img-login {
+    background-image: url(../img/SpHost1.png);
+    border-radius: 54px 0 0 54px;
+    box-shadow: 0 0 0 5px rgba(228, 228, 228, 0.568);
+}
+
 /* Responsividade unificada */
+@media (max-width: 1100px) {
+    .img-decoracao {
+        width: 60%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .img-login {
+        background-image: url(../img/SpHost1.png);
+        border-radius: 54px 0 0 54px;
+        box-shadow: 0 0 0 5px rgba(29, 27, 27, 0.603);
+    }
+
+}
+
+@media(max-width: 900px) {
+    .img-decoracao {
+        display: none;
+
+    }
+
+
+}
+
+
+
 
 @media (max-width: 576px) {
 
-    .tela-login{
+    .tela-login {
         text-align: center;
         margin-left: 50px;
     }
@@ -146,31 +193,39 @@ body {
 
     .tela-login h1 {
         color: #e0cdcd;
-        display: block;
+       
         font-size: 3.7rem;
         text-align: end;
+
+      
     }
+
     .tela-login h1 span {
-        font-size: 2.1rem;
-        
+        font-size: 3.1rem;
         color: var(--text-login);
-        
+        margin-left: 55%;
+        display: flex;
+
     }
 
     .tela-login form {
- 
+
         width: 90%;
         margin: 30px auto;
     }
-    
+
     .tela-login form input {
         display: block;
-    
-    
-    
+
+
+
     }
-    
-    
+
+    .img-decoracao {
+        display: none;
+
+    }
+
 
 
 }
