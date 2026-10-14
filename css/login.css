@@ -37,6 +37,7 @@ body {
 
 .tela-login h1 {
     color: var(--cor-texto);
+    text-shadow: #00471ec4 4px 1px 1px;
     
     
     font-size: 3.5rem;
@@ -44,7 +45,7 @@ body {
 
 .tela-login h1 span {
     color: var(--text-login);
-    text-shadow: #00471ec4 4px 3px 3px;
+    text-shadow: #00471ec4 4px 1px 1px;
     
 }
 
@@ -204,6 +205,7 @@ body {
         background-image: url(../img/SpHost1.png);
         border-radius: 54px 0 0 54px;
         box-shadow: 0 0 0 5px rgba(29, 27, 27, 0.603);
+        
     }
 
     .tela-login {
