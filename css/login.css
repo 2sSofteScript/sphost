@@ -173,7 +173,8 @@ body {
 
 @media(max-width: 900px) {
     .img-decoracao {
-        display: none;
+        padding-right: 20%;
+        border: 3px solid #1ca551;
 
     }
 
