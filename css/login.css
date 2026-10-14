@@ -7,11 +7,11 @@
 
 :root {
     --text-login: #2cc76a;
-    --cor-input: #cccccc 78%;
-    --text-input: #0a692f 19%;
+    --cor-input: #ccc;
+    --text-input: #0a692f ;
     --cor-button: #2cc762;
     --cor-texto: #fff;
-    
+
 }
 
 body {
@@ -33,14 +33,22 @@ body {
     text-align: center;
 }
 
+
+h1{
+
+}
+
 .tela-login h1 {
-    color: #333;
+    color: var(--cor-texto);
+    
+    
     font-size: 3.5rem;
 }
 
 .tela-login h1 span {
     color: var(--text-login);
-
+    text-shadow: #00471ec4 4px 3px 3px;
+    
 }
 
 .tela-login form {
@@ -186,6 +194,21 @@ body {
 
 @media (max-width: 576px) {
 
+    .img-decoracao {
+        width: 60%;
+        height: 100%;
+        background-size: cover;
+        background-repeat: no-repeat;
+
+
+    }
+
+    .img-login {
+        background-image: url(../img/SpHost1.png);
+        border-radius: 54px 0 0 54px;
+        box-shadow: 0 0 0 5px rgba(29, 27, 27, 0.603);
+    }
+
     .tela-login {
         text-align: center;
         margin-left: 50px;
@@ -193,12 +216,12 @@ body {
 
 
     .tela-login h1 {
-        color: #e0cdcd;
-       
+        color: var(--cor-texto);
+
         font-size: 3.7rem;
         text-align: end;
 
-      
+
     }
 
     .tela-login h1 span {
